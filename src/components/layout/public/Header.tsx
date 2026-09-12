@@ -1,4 +1,5 @@
-import Logo from "@/components/shared/logo";
+
+import Logo from "@/assets/svg/logo";
 import { Button } from "@base-ui/react";
 import Link from "next/dist/client/link";
 

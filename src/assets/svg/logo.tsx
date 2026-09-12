@@ -1,15 +1,14 @@
 import Image from 'next/image'
-import React from 'react'
 
 export default function Logo() {
   return (
     <div className="flex items-center">
         <Image
-          src="/logo.jpg"
+          src="/healthcare.svg"
           alt="Logo"
           width={40}
           height={40}
-          className="rounded-full"
+          className="h-20 w-20"
         />
         <h1 className="text-lg font-bold">PH-Healthcare</h1>
     </div>
